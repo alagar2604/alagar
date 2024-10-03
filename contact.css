@@ -1,0 +1,166 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Wix Madefor Text", sans-serif;
+    font-style: normal;
+}
+.whole{
+    overflow: hidden;
+}
+/* nav bar start */
+nav{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: inset 0px 6px 8px rgb(209, 209, 209);
+    position: sticky;
+    top: 0;
+}
+.squre{
+    width: 20px;
+    height: 20px;
+    background-color:#0050FF;
+}
+.name{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right:  350px;
+    text-transform: capitalize;
+}
+.name span{
+    text-transform: uppercase;
+    font-family:"Wix Madefor Text", sans-serif;
+}
+.b1{
+    border: none;
+    background-color: transparent;
+    font-size: medium;
+    text-transform: uppercase;
+    font-weight: 100;
+    padding: 10px;
+}
+.b1:hover{
+    color: blue;
+}
+.active .b1{
+    color: blue;
+}
+
+/* nav bar end */
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color:#E6DACE ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 50px;
+}
+.heading{
+    width: 100%;
+    height: 200px;
+    /* background-color: rgb(208, 103, 103); */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    text-transform: capitalize;
+}
+.form{
+    width: 50%;
+    height: 100vh;
+    background-color: white;
+    display: grid;
+    gap: 5px;
+    padding:30px 0px 30px 30px;
+    grid-template-areas: "b1 b1 b1 b1 b1 b1 b2 b2 b2 b2 b2 b2"
+                         "b3 b3 b3 b3 b3 b3 b3 b3 b3 b3 b3 b3"
+                         "b4 b4 b4 b4 b4 b4 b4 b4 b4 b4 b4 b4"
+                         "b5 b5 b5 b5 b5 b5 b5 b5 b5 b5 b5 b5"
+                         "b6 b6 b6 b6 b6 b6 b6 b6 b6 b6 b6 b6";
+}
+.form div{
+    /* background-color: coral; */
+    display: flex;
+    flex-direction: column;
+}
+.form div input{
+    width: 90%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.box1{
+    grid-area: b1;
+   
+}
+.box2{
+    grid-area: b2;
+}
+.box3{
+    grid-area: b3;
+}
+.box4{
+    grid-area: b4;
+}
+.box5{
+    grid-area: b5;
+}
+.box6{
+    grid-area: b6;
+}
+.form button{
+      width: 20%;
+      height: 40px;
+      border-radius: 20px;
+      border: none;
+      font-size: larger;
+      font-weight: 500;
+      background-color: #0050FF;
+      color: white;
+}
+
+.form div input:focus{
+    outline: transparent;
+}
+
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.yearcontent{
+    width: fit-content;
+    height: fit-content;
+    /* background-color: bisque; */
+    padding-left: 50px;
+}
+.grid{
+    width: 40%;
+    height: 70px;
+    /* background-color: crimson; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+}
+
+.icons2 {
+    letter-spacing: 10px;
+}
+
+.icons2 .fa-brands{
+    font-size: 20px;
+    
+}
